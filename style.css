@@ -1,0 +1,138 @@
+.grid-container{
+    background-color: ghostwhite
+    display: grid;
+}
+#gridOne{
+    background-image: linear-gradient(to left, red, green, yellow);
+    text-align: center;
+}
+#gridTwo{
+    border: 2px solid red;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: 3% 13% ;
+}
+#gridThree{
+background-color: aqua;
+border: 2px solid rgb(7, 255, 160);
+border-radius: 10px;
+font-weight: bold;
+}
+.loremPs{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.one{
+    background-color: rgb(176, 250, 225);
+    margin:1% 10% 0% ;
+    border: rgb(43, 243, 166) solid 2px;
+    border-radius: 10px;
+}
+#loremP{
+    display: grid;
+}
+#oneA{
+    margin: 5% 0% 5% 0%;
+    background-color: rgb(176, 250, 225);
+    margin: 0% 33% 0%;
+    width: 33%;
+    border: rgb(43, 243, 166) solid 2px;
+    border-radius: 10px;
+}
+#gridFour{
+    margin: 5% 0% 5% 0%;
+    justify-content: center;
+    display: grid;
+    gap: 10%;
+    background-image: radial-gradient(blue 30%,dodgerblue 50%,green);
+    grid-template-columns: auto auto auto auto;
+    border: green 2px solid;
+}
+.box{
+    text-align: center;
+    width: 120%;
+    margin: 10px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 49);
+}
+#gridPer{
+    background-image: linear-gradient(to right,red,yellow,red);
+    text-align: center;
+}
+#gridFive{
+    background-color: rgb(241, 129, 148);
+    color: white;
+    text-align: center;
+}
+#gridSix{
+    align-items: center;
+    display: grid;
+    gap: 1%;
+    /* margin: 10px; */
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+#gridA{
+    background-color: rgb(78, 201, 78);
+    height: 100px;
+    font-size: x-large;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#gridB{
+    background-color: rgb(110, 175, 250);
+    height: 100px;
+    font-size: larger;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#gridC{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100px;
+    background-color: rgb(12, 119, 241);
+    font-size: larger;
+}
+#gridD{
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: underline;
+    background-color: black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width:80%;
+    height: 220px;
+    
+}
+#gridE{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: large;
+    text-align: justify;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: orange;
+    height: 120px;
+}
+#gridNine{
+    background-color: crimson;
+    text-align: center;
+    margin-top: 3%;
+    font-size: xx-large;
+}
+.und{
+    text-decoration: underline;
+}
+.gr{
+    color: white;
+    text-decoration: bolder;
+    text-align: justify;
+    font-weight: bolder;
+}
